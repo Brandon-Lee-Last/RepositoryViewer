@@ -1,0 +1,778 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when there are no repos 1`] = `
+<div
+  className="repo_loader"
+>
+  <div
+    id="preloader"
+  >
+    <div
+      id="loader"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders when there are repos 1`] = `
+<div
+  className="repo"
+>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      pomodoro-electron
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      1
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/pomodoro-electron
+    </p>
+    <p>
+      Discription : 
+      null
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      process-pwd
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/process-pwd
+    </p>
+    <p>
+      Discription : 
+      Alias for \`process.env.PWD\`.
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      node-chat
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/node-chat
+    </p>
+    <p>
+      Discription : 
+      NodeJS Chat Server
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      pomodoro-backbone
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/pomodoro-backbone
+    </p>
+    <p>
+      Discription : 
+      Work around
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      neural-rss
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/neural-rss
+    </p>
+    <p>
+      Discription : 
+      Filter your rss feed by neural classifier.
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      md-builder
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      1
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/md-builder
+    </p>
+    <p>
+      Discription : 
+      Compile markdown to HTML, PDF, Epub and Mobi as service
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      pomodoro-js
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/pomodoro-js
+    </p>
+    <p>
+      Discription : 
+      Pomodoro based Backbone.JS course
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      markov-ka
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/markov-ka
+    </p>
+    <p>
+      Discription : 
+      Buzz words generator :D
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      pomodoro-one
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/pomodoro-one
+    </p>
+    <p>
+      Discription : 
+      Work around
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      simple-grid-stylus
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/simple-grid-stylus
+    </p>
+    <p>
+      Discription : 
+      Simple fixed customizable grid inspired bootstrap
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      node-smsc
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      1
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/node-smsc
+    </p>
+    <p>
+      Discription : 
+      Poorly SMSC API implementation
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      mnml-tpl
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      1
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/mnml-tpl
+    </p>
+    <p>
+      Discription : 
+      Hello :username, :repository is tiny string template engine
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      passionate-programmer
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/passionate-programmer
+    </p>
+    <p>
+      Discription : 
+      null
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      go-search-me
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      3
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/go-search-me
+    </p>
+    <p>
+      Discription : 
+      Open your browser from terminal to search things
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      emo
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/emo
+    </p>
+    <p>
+      Discription : 
+      Tiny and emotional zsh prompt
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      reading-list-promo
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/reading-list-promo
+    </p>
+    <p>
+      Discription : 
+      Reading List Promo
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      parcel-plugin-peer-dependencies
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/parcel-plugin-peer-dependencies
+    </p>
+    <p>
+      Discription : 
+      Parcel plugin to exclude peer dependencies. Should be useful with yarn workspaces.
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      old-dotfiles
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/old-dotfiles
+    </p>
+    <p>
+      Discription : 
+      The dotfiles and the tools
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      .dotfiles
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      5
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/.dotfiles
+    </p>
+    <p>
+      Discription : 
+      configs and utils
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      seoul256.vim
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/seoul256.vim
+    </p>
+    <p>
+      Discription : 
+      a low-contrast Vim color scheme based on Seoul Colors
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      repo-manager
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/repo-manager
+    </p>
+    <p>
+      Discription : 
+      Opinionated wrapper around git clone, that keeps all your repos in structure
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      next-done
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/next-done
+    </p>
+    <p>
+      Discription : 
+      It's just countdowns your callbacks.
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      dmenu-patched
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      [object Object]
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/dmenu-patched
+    </p>
+    <p>
+      Discription : 
+      null
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      node-clusterize-cli
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      1
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/node-clusterize-cli
+    </p>
+    <p>
+      Discription : 
+      The simplest CLI interface for clusterize and demonize your apps
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      diagnostic-languageserver
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      [object Object]
+    </p>
+    <p>
+      Forks : 
+      0
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/diagnostic-languageserver
+    </p>
+    <p>
+      Discription : 
+      diagnostic language server integrate with linters
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      shuvalov.info
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      [object Object]
+    </p>
+    <p>
+      Forks : 
+      1
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/shuvalov.info
+    </p>
+    <p>
+      Discription : 
+      My blog 
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      largescaleJS_ru
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      [object Object]
+    </p>
+    <p>
+      Forks : 
+      101
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/largescaleJS_ru
+    </p>
+    <p>
+      Discription : 
+      Russian translation of Addy Osmani book.
+    </p>
+  </div>
+  <div
+    className="repo_box"
+  >
+    <h1>
+      code-screenshots
+    </h1>
+    <p>
+      Private Repo : 
+      false
+    </p>
+    <p>
+      License : 
+      null
+    </p>
+    <p>
+      Forks : 
+      33
+    </p>
+    <p>
+      Original URL : 
+      https://api.github.com/repos/A/code-screenshots
+    </p>
+    <p>
+      Discription : 
+      Скриншоты редакторов кода разных разработчиков
+    </p>
+  </div>
+</div>
+`;
