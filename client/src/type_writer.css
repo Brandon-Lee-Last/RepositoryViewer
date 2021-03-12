@@ -1,0 +1,1063 @@
+@charset "UTF-8";
+@-webkit-keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.31686% {
+    content: "S";
+  }
+  /* string 1, char 2 */
+  0.31686%, 0.63371% {
+    content: "Se";
+  }
+  /* string 1, char 3 */
+  0.63371%, 0.95057% {
+    content: "Sea";
+  }
+  /* string 1, char 4 */
+  0.95057%, 1.26743% {
+    content: "Sear";
+  }
+  /* string 1, char 5 */
+  1.26743%, 1.58428% {
+    content: "Searc";
+  }
+  /* string 1, char 6 */
+  1.58428%, 1.90114% {
+    content: "Search";
+  }
+  /* string 1, char 7 */
+  1.90114%, 2.218% {
+    content: "Search ";
+  }
+  /* string 1, char 8 */
+  2.218%, 2.53485% {
+    content: "Search f";
+  }
+  /* string 1, char 9 */
+  2.53485%, 2.85171% {
+    content: "Search fo";
+  }
+  /* string 1, char 10 */
+  2.85171%, 3.16857% {
+    content: "Search for";
+  }
+  /* string 1, char 11 */
+  3.16857%, 3.48542% {
+    content: "Search for ";
+  }
+  /* string 1, char 12 */
+  3.48542%, 3.80228% {
+    content: "Search for u";
+  }
+  /* string 1, char 13 */
+  3.80228%, 4.11914% {
+    content: "Search for us";
+  }
+  /* string 1, char 14 */
+  4.11914%, 4.43599% {
+    content: "Search for use";
+  }
+  /* string 1, char 15 */
+  4.43599%, 4.75285% {
+    content: "Search for user";
+  }
+  /* string 1, char 16 */
+  4.75285%, 5.06971% {
+    content: "Search for users";
+  }
+  /* string 1, char 17 */
+  5.06971%, 5.38657% {
+    content: "Search for users ";
+  }
+  /* string 1, char 18 */
+  5.38657%, 5.70342% {
+    content: "Search for users o";
+  }
+  /* string 1, char 19 */
+  5.70342%, 6.02028% {
+    content: "Search for users on";
+  }
+  /* string 1, char 20 */
+  6.02028%, 6.33714% {
+    content: "Search for users on ";
+  }
+  /* string 1, char 21 */
+  6.33714%, 6.65399% {
+    content: "Search for users on G";
+  }
+  /* string 1, char 22 */
+  6.65399%, 6.97085% {
+    content: "Search for users on Gi";
+  }
+  /* string 1, char 23 */
+  6.97085%, 7.28771% {
+    content: "Search for users on Git";
+  }
+  /* string 1, char 24 */
+  7.28771%, 7.60456% {
+    content: "Search for users on Gith";
+  }
+  /* string 1, char 25 */
+  7.60456%, 7.92142% {
+    content: "Search for users on Githu";
+  }
+  /* string 1, char 26 */
+  7.92142%, 24.3346% {
+    content: "Search for users on Github";
+  }
+  /* string 1, char 27 */
+  24.3346%, 24.58809% {
+    content: "Search for users on Githu";
+  }
+  /* string 1, char 28 */
+  24.58809%, 24.84157% {
+    content: "Search for users on Gith";
+  }
+  /* string 1, char 29 */
+  24.84157%, 25.09506% {
+    content: "Search for users on Git";
+  }
+  /* string 1, char 30 */
+  25.09506%, 25.34854% {
+    content: "Search for users on Gi";
+  }
+  /* string 1, char 31 */
+  25.34854%, 25.60203% {
+    content: "Search for users on G";
+  }
+  /* string 1, char 32 */
+  25.60203%, 25.85551% {
+    content: "Search for users on ";
+  }
+  /* string 1, char 33 */
+  25.85551%, 26.109% {
+    content: "Search for users on";
+  }
+  /* string 1, char 34 */
+  26.109%, 26.36248% {
+    content: "Search for users o";
+  }
+  /* string 1, char 35 */
+  26.36248%, 26.61597% {
+    content: "Search for users ";
+  }
+  /* string 1, char 36 */
+  26.61597%, 26.86946% {
+    content: "Search for users";
+  }
+  /* string 1, char 37 */
+  26.86946%, 27.12294% {
+    content: "Search for user";
+  }
+  /* string 1, char 38 */
+  27.12294%, 27.37643% {
+    content: "Search for use";
+  }
+  /* string 1, char 39 */
+  27.37643%, 27.62991% {
+    content: "Search for us";
+  }
+  /* string 1, char 40 */
+  27.62991%, 27.8834% {
+    content: "Search for u";
+  }
+  /* string 1, char 41 */
+  27.8834%, 28.13688% {
+    content: "Search for ";
+  }
+  /* string 1, char 42 */
+  28.13688%, 28.39037% {
+    content: "Search for";
+  }
+  /* string 1, char 43 */
+  28.39037%, 28.64385% {
+    content: "Search fo";
+  }
+  /* string 1, char 44 */
+  28.64385%, 28.89734% {
+    content: "Search f";
+  }
+  /* string 1, char 45 */
+  28.89734%, 29.15082% {
+    content: "Search ";
+  }
+  /* string 1, char 46 */
+  29.15082%, 29.40431% {
+    content: "Search";
+  }
+  /* string 1, char 47 */
+  29.40431%, 29.65779% {
+    content: "Searc";
+  }
+  /* string 1, char 48 */
+  29.65779%, 29.91128% {
+    content: "Sear";
+  }
+  /* string 1, char 49 */
+  29.91128%, 30.16477% {
+    content: "Sea";
+  }
+  /* string 1, char 50 */
+  30.16477%, 30.41825% {
+    content: "Se";
+  }
+  /* string 1, char 51 */
+  30.41825%, 30.67174% {
+    content: "S";
+  }
+  /* string 1, char 52 */
+  30.67174%, 47.14829% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  47.14829%, 47.46515% {
+    content: "S";
+  }
+  /* string 2, char 2 */
+  47.46515%, 47.782% {
+    content: "Se";
+  }
+  /* string 2, char 3 */
+  47.782%, 48.09886% {
+    content: "Sea";
+  }
+  /* string 2, char 4 */
+  48.09886%, 48.41572% {
+    content: "Sear";
+  }
+  /* string 2, char 5 */
+  48.41572%, 48.73257% {
+    content: "Searc";
+  }
+  /* string 2, char 6 */
+  48.73257%, 49.04943% {
+    content: "Search";
+  }
+  /* string 2, char 7 */
+  49.04943%, 49.36629% {
+    content: "Search ";
+  }
+  /* string 2, char 8 */
+  49.36629%, 49.68314% {
+    content: "Search f";
+  }
+  /* string 2, char 9 */
+  49.68314%, 50% {
+    content: "Search fo";
+  }
+  /* string 2, char 10 */
+  50%, 50.31686% {
+    content: "Search for";
+  }
+  /* string 2, char 11 */
+  50.31686%, 50.63371% {
+    content: "Search for ";
+  }
+  /* string 2, char 12 */
+  50.63371%, 50.95057% {
+    content: "Search for u";
+  }
+  /* string 2, char 13 */
+  50.95057%, 51.26743% {
+    content: "Search for us";
+  }
+  /* string 2, char 14 */
+  51.26743%, 51.58428% {
+    content: "Search for use";
+  }
+  /* string 2, char 15 */
+  51.58428%, 51.90114% {
+    content: "Search for user";
+  }
+  /* string 2, char 16 */
+  51.90114%, 52.218% {
+    content: "Search for users";
+  }
+  /* string 2, char 17 */
+  52.218%, 52.53485% {
+    content: "Search for users ";
+  }
+  /* string 2, char 18 */
+  52.53485%, 52.85171% {
+    content: "Search for users o";
+  }
+  /* string 2, char 19 */
+  52.85171%, 53.16857% {
+    content: "Search for users on";
+  }
+  /* string 2, char 20 */
+  53.16857%, 53.48542% {
+    content: "Search for users on ";
+  }
+  /* string 2, char 21 */
+  53.48542%, 53.80228% {
+    content: "Search for users on G";
+  }
+  /* string 2, char 22 */
+  53.80228%, 54.11914% {
+    content: "Search for users on Gi";
+  }
+  /* string 2, char 23 */
+  54.11914%, 54.43599% {
+    content: "Search for users on Git";
+  }
+  /* string 2, char 24 */
+  54.43599%, 54.75285% {
+    content: "Search for users on GitL";
+  }
+  /* string 2, char 25 */
+  54.75285%, 55.06971% {
+    content: "Search for users on GitLa";
+  }
+  /* string 2, char 26 */
+  55.06971%, 55.38657% {
+    content: "Search for users on GitLab";
+  }
+  /* string 2, char 27 */
+  55.38657%, 55.70342% {
+    content: "Search for users on GitLab ";
+  }
+  /* string 2, char 28 */
+  55.70342%, 56.02028% {
+    content: "Search for users on GitLab a";
+  }
+  /* string 2, char 29 */
+  56.02028%, 56.33714% {
+    content: "Search for users on GitLab as";
+  }
+  /* string 2, char 30 */
+  56.33714%, 56.65399% {
+    content: "Search for users on GitLab as ";
+  }
+  /* string 2, char 31 */
+  56.65399%, 56.97085% {
+    content: "Search for users on GitLab as w";
+  }
+  /* string 2, char 32 */
+  56.97085%, 57.28771% {
+    content: "Search for users on GitLab as we";
+  }
+  /* string 2, char 33 */
+  57.28771%, 57.60456% {
+    content: "Search for users on GitLab as wel";
+  }
+  /* string 2, char 34 */
+  57.60456%, 57.92142% {
+    content: "Search for users on GitLab as well";
+  }
+  /* string 2, char 35 */
+  57.92142%, 58.23828% {
+    content: "Search for users on GitLab as well ";
+  }
+  /* string 2, char 36 */
+  58.23828%, 74.65146% {
+    content: "Search for users on GitLab as well 😱";
+  }
+  /* string 2, char 37 */
+  74.65146%, 74.90494% {
+    content: "Search for users on GitLab as well ";
+  }
+  /* string 2, char 38 */
+  74.90494%, 75.15843% {
+    content: "Search for users on GitLab as well";
+  }
+  /* string 2, char 39 */
+  75.15843%, 75.41191% {
+    content: "Search for users on GitLab as wel";
+  }
+  /* string 2, char 40 */
+  75.41191%, 75.6654% {
+    content: "Search for users on GitLab as we";
+  }
+  /* string 2, char 41 */
+  75.6654%, 75.91888% {
+    content: "Search for users on GitLab as w";
+  }
+  /* string 2, char 42 */
+  75.91888%, 76.17237% {
+    content: "Search for users on GitLab as ";
+  }
+  /* string 2, char 43 */
+  76.17237%, 76.42586% {
+    content: "Search for users on GitLab as";
+  }
+  /* string 2, char 44 */
+  76.42586%, 76.67934% {
+    content: "Search for users on GitLab a";
+  }
+  /* string 2, char 45 */
+  76.67934%, 76.93283% {
+    content: "Search for users on GitLab ";
+  }
+  /* string 2, char 46 */
+  76.93283%, 77.18631% {
+    content: "Search for users on GitLab";
+  }
+  /* string 2, char 47 */
+  77.18631%, 77.4398% {
+    content: "Search for users on GitLa";
+  }
+  /* string 2, char 48 */
+  77.4398%, 77.69328% {
+    content: "Search for users on GitL";
+  }
+  /* string 2, char 49 */
+  77.69328%, 77.94677% {
+    content: "Search for users on Git";
+  }
+  /* string 2, char 50 */
+  77.94677%, 78.20025% {
+    content: "Search for users on Gi";
+  }
+  /* string 2, char 51 */
+  78.20025%, 78.45374% {
+    content: "Search for users on G";
+  }
+  /* string 2, char 52 */
+  78.45374%, 78.70722% {
+    content: "Search for users on ";
+  }
+  /* string 2, char 53 */
+  78.70722%, 78.96071% {
+    content: "Search for users on";
+  }
+  /* string 2, char 54 */
+  78.96071%, 79.2142% {
+    content: "Search for users o";
+  }
+  /* string 2, char 55 */
+  79.2142%, 79.46768% {
+    content: "Search for users ";
+  }
+  /* string 2, char 56 */
+  79.46768%, 79.72117% {
+    content: "Search for users";
+  }
+  /* string 2, char 57 */
+  79.72117%, 79.97465% {
+    content: "Search for user";
+  }
+  /* string 2, char 58 */
+  79.97465%, 80.22814% {
+    content: "Search for use";
+  }
+  /* string 2, char 59 */
+  80.22814%, 80.48162% {
+    content: "Search for us";
+  }
+  /* string 2, char 60 */
+  80.48162%, 80.73511% {
+    content: "Search for u";
+  }
+  /* string 2, char 61 */
+  80.73511%, 80.98859% {
+    content: "Search for ";
+  }
+  /* string 2, char 62 */
+  80.98859%, 81.24208% {
+    content: "Search for";
+  }
+  /* string 2, char 63 */
+  81.24208%, 81.49556% {
+    content: "Search fo";
+  }
+  /* string 2, char 64 */
+  81.49556%, 81.74905% {
+    content: "Search f";
+  }
+  /* string 2, char 65 */
+  81.74905%, 82.00253% {
+    content: "Search ";
+  }
+  /* string 2, char 66 */
+  82.00253%, 82.25602% {
+    content: "Search";
+  }
+  /* string 2, char 67 */
+  82.25602%, 82.50951% {
+    content: "Searc";
+  }
+  /* string 2, char 68 */
+  82.50951%, 82.76299% {
+    content: "Sear";
+  }
+  /* string 2, char 69 */
+  82.76299%, 83.01648% {
+    content: "Sea";
+  }
+  /* string 2, char 70 */
+  83.01648%, 83.26996% {
+    content: "Se";
+  }
+  /* string 2, char 71 */
+  83.26996%, 83.52345% {
+    content: "S";
+  }
+  /* string 2, char 72 */
+  83.52345%, 100% {
+    content: "​";
+  }
+}
+@keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.31686% {
+    content: "S";
+  }
+  /* string 1, char 2 */
+  0.31686%, 0.63371% {
+    content: "Se";
+  }
+  /* string 1, char 3 */
+  0.63371%, 0.95057% {
+    content: "Sea";
+  }
+  /* string 1, char 4 */
+  0.95057%, 1.26743% {
+    content: "Sear";
+  }
+  /* string 1, char 5 */
+  1.26743%, 1.58428% {
+    content: "Searc";
+  }
+  /* string 1, char 6 */
+  1.58428%, 1.90114% {
+    content: "Search";
+  }
+  /* string 1, char 7 */
+  1.90114%, 2.218% {
+    content: "Search ";
+  }
+  /* string 1, char 8 */
+  2.218%, 2.53485% {
+    content: "Search f";
+  }
+  /* string 1, char 9 */
+  2.53485%, 2.85171% {
+    content: "Search fo";
+  }
+  /* string 1, char 10 */
+  2.85171%, 3.16857% {
+    content: "Search for";
+  }
+  /* string 1, char 11 */
+  3.16857%, 3.48542% {
+    content: "Search for ";
+  }
+  /* string 1, char 12 */
+  3.48542%, 3.80228% {
+    content: "Search for u";
+  }
+  /* string 1, char 13 */
+  3.80228%, 4.11914% {
+    content: "Search for us";
+  }
+  /* string 1, char 14 */
+  4.11914%, 4.43599% {
+    content: "Search for use";
+  }
+  /* string 1, char 15 */
+  4.43599%, 4.75285% {
+    content: "Search for user";
+  }
+  /* string 1, char 16 */
+  4.75285%, 5.06971% {
+    content: "Search for users";
+  }
+  /* string 1, char 17 */
+  5.06971%, 5.38657% {
+    content: "Search for users ";
+  }
+  /* string 1, char 18 */
+  5.38657%, 5.70342% {
+    content: "Search for users o";
+  }
+  /* string 1, char 19 */
+  5.70342%, 6.02028% {
+    content: "Search for users on";
+  }
+  /* string 1, char 20 */
+  6.02028%, 6.33714% {
+    content: "Search for users on ";
+  }
+  /* string 1, char 21 */
+  6.33714%, 6.65399% {
+    content: "Search for users on G";
+  }
+  /* string 1, char 22 */
+  6.65399%, 6.97085% {
+    content: "Search for users on Gi";
+  }
+  /* string 1, char 23 */
+  6.97085%, 7.28771% {
+    content: "Search for users on Git";
+  }
+  /* string 1, char 24 */
+  7.28771%, 7.60456% {
+    content: "Search for users on Gith";
+  }
+  /* string 1, char 25 */
+  7.60456%, 7.92142% {
+    content: "Search for users on Githu";
+  }
+  /* string 1, char 26 */
+  7.92142%, 24.3346% {
+    content: "Search for users on Github";
+  }
+  /* string 1, char 27 */
+  24.3346%, 24.58809% {
+    content: "Search for users on Githu";
+  }
+  /* string 1, char 28 */
+  24.58809%, 24.84157% {
+    content: "Search for users on Gith";
+  }
+  /* string 1, char 29 */
+  24.84157%, 25.09506% {
+    content: "Search for users on Git";
+  }
+  /* string 1, char 30 */
+  25.09506%, 25.34854% {
+    content: "Search for users on Gi";
+  }
+  /* string 1, char 31 */
+  25.34854%, 25.60203% {
+    content: "Search for users on G";
+  }
+  /* string 1, char 32 */
+  25.60203%, 25.85551% {
+    content: "Search for users on ";
+  }
+  /* string 1, char 33 */
+  25.85551%, 26.109% {
+    content: "Search for users on";
+  }
+  /* string 1, char 34 */
+  26.109%, 26.36248% {
+    content: "Search for users o";
+  }
+  /* string 1, char 35 */
+  26.36248%, 26.61597% {
+    content: "Search for users ";
+  }
+  /* string 1, char 36 */
+  26.61597%, 26.86946% {
+    content: "Search for users";
+  }
+  /* string 1, char 37 */
+  26.86946%, 27.12294% {
+    content: "Search for user";
+  }
+  /* string 1, char 38 */
+  27.12294%, 27.37643% {
+    content: "Search for use";
+  }
+  /* string 1, char 39 */
+  27.37643%, 27.62991% {
+    content: "Search for us";
+  }
+  /* string 1, char 40 */
+  27.62991%, 27.8834% {
+    content: "Search for u";
+  }
+  /* string 1, char 41 */
+  27.8834%, 28.13688% {
+    content: "Search for ";
+  }
+  /* string 1, char 42 */
+  28.13688%, 28.39037% {
+    content: "Search for";
+  }
+  /* string 1, char 43 */
+  28.39037%, 28.64385% {
+    content: "Search fo";
+  }
+  /* string 1, char 44 */
+  28.64385%, 28.89734% {
+    content: "Search f";
+  }
+  /* string 1, char 45 */
+  28.89734%, 29.15082% {
+    content: "Search ";
+  }
+  /* string 1, char 46 */
+  29.15082%, 29.40431% {
+    content: "Search";
+  }
+  /* string 1, char 47 */
+  29.40431%, 29.65779% {
+    content: "Searc";
+  }
+  /* string 1, char 48 */
+  29.65779%, 29.91128% {
+    content: "Sear";
+  }
+  /* string 1, char 49 */
+  29.91128%, 30.16477% {
+    content: "Sea";
+  }
+  /* string 1, char 50 */
+  30.16477%, 30.41825% {
+    content: "Se";
+  }
+  /* string 1, char 51 */
+  30.41825%, 30.67174% {
+    content: "S";
+  }
+  /* string 1, char 52 */
+  30.67174%, 47.14829% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  47.14829%, 47.46515% {
+    content: "S";
+  }
+  /* string 2, char 2 */
+  47.46515%, 47.782% {
+    content: "Se";
+  }
+  /* string 2, char 3 */
+  47.782%, 48.09886% {
+    content: "Sea";
+  }
+  /* string 2, char 4 */
+  48.09886%, 48.41572% {
+    content: "Sear";
+  }
+  /* string 2, char 5 */
+  48.41572%, 48.73257% {
+    content: "Searc";
+  }
+  /* string 2, char 6 */
+  48.73257%, 49.04943% {
+    content: "Search";
+  }
+  /* string 2, char 7 */
+  49.04943%, 49.36629% {
+    content: "Search ";
+  }
+  /* string 2, char 8 */
+  49.36629%, 49.68314% {
+    content: "Search f";
+  }
+  /* string 2, char 9 */
+  49.68314%, 50% {
+    content: "Search fo";
+  }
+  /* string 2, char 10 */
+  50%, 50.31686% {
+    content: "Search for";
+  }
+  /* string 2, char 11 */
+  50.31686%, 50.63371% {
+    content: "Search for ";
+  }
+  /* string 2, char 12 */
+  50.63371%, 50.95057% {
+    content: "Search for u";
+  }
+  /* string 2, char 13 */
+  50.95057%, 51.26743% {
+    content: "Search for us";
+  }
+  /* string 2, char 14 */
+  51.26743%, 51.58428% {
+    content: "Search for use";
+  }
+  /* string 2, char 15 */
+  51.58428%, 51.90114% {
+    content: "Search for user";
+  }
+  /* string 2, char 16 */
+  51.90114%, 52.218% {
+    content: "Search for users";
+  }
+  /* string 2, char 17 */
+  52.218%, 52.53485% {
+    content: "Search for users ";
+  }
+  /* string 2, char 18 */
+  52.53485%, 52.85171% {
+    content: "Search for users o";
+  }
+  /* string 2, char 19 */
+  52.85171%, 53.16857% {
+    content: "Search for users on";
+  }
+  /* string 2, char 20 */
+  53.16857%, 53.48542% {
+    content: "Search for users on ";
+  }
+  /* string 2, char 21 */
+  53.48542%, 53.80228% {
+    content: "Search for users on G";
+  }
+  /* string 2, char 22 */
+  53.80228%, 54.11914% {
+    content: "Search for users on Gi";
+  }
+  /* string 2, char 23 */
+  54.11914%, 54.43599% {
+    content: "Search for users on Git";
+  }
+  /* string 2, char 24 */
+  54.43599%, 54.75285% {
+    content: "Search for users on GitL";
+  }
+  /* string 2, char 25 */
+  54.75285%, 55.06971% {
+    content: "Search for users on GitLa";
+  }
+  /* string 2, char 26 */
+  55.06971%, 55.38657% {
+    content: "Search for users on GitLab";
+  }
+  /* string 2, char 27 */
+  55.38657%, 55.70342% {
+    content: "Search for users on GitLab ";
+  }
+  /* string 2, char 28 */
+  55.70342%, 56.02028% {
+    content: "Search for users on GitLab a";
+  }
+  /* string 2, char 29 */
+  56.02028%, 56.33714% {
+    content: "Search for users on GitLab as";
+  }
+  /* string 2, char 30 */
+  56.33714%, 56.65399% {
+    content: "Search for users on GitLab as ";
+  }
+  /* string 2, char 31 */
+  56.65399%, 56.97085% {
+    content: "Search for users on GitLab as w";
+  }
+  /* string 2, char 32 */
+  56.97085%, 57.28771% {
+    content: "Search for users on GitLab as we";
+  }
+  /* string 2, char 33 */
+  57.28771%, 57.60456% {
+    content: "Search for users on GitLab as wel";
+  }
+  /* string 2, char 34 */
+  57.60456%, 57.92142% {
+    content: "Search for users on GitLab as well";
+  }
+  /* string 2, char 35 */
+  57.92142%, 58.23828% {
+    content: "Search for users on GitLab as well ";
+  }
+  /* string 2, char 36 */
+  58.23828%, 74.65146% {
+    content: "Search for users on GitLab as well 😱";
+  }
+  /* string 2, char 37 */
+  74.65146%, 74.90494% {
+    content: "Search for users on GitLab as well ";
+  }
+  /* string 2, char 38 */
+  74.90494%, 75.15843% {
+    content: "Search for users on GitLab as well";
+  }
+  /* string 2, char 39 */
+  75.15843%, 75.41191% {
+    content: "Search for users on GitLab as wel";
+  }
+  /* string 2, char 40 */
+  75.41191%, 75.6654% {
+    content: "Search for users on GitLab as we";
+  }
+  /* string 2, char 41 */
+  75.6654%, 75.91888% {
+    content: "Search for users on GitLab as w";
+  }
+  /* string 2, char 42 */
+  75.91888%, 76.17237% {
+    content: "Search for users on GitLab as ";
+  }
+  /* string 2, char 43 */
+  76.17237%, 76.42586% {
+    content: "Search for users on GitLab as";
+  }
+  /* string 2, char 44 */
+  76.42586%, 76.67934% {
+    content: "Search for users on GitLab a";
+  }
+  /* string 2, char 45 */
+  76.67934%, 76.93283% {
+    content: "Search for users on GitLab ";
+  }
+  /* string 2, char 46 */
+  76.93283%, 77.18631% {
+    content: "Search for users on GitLab";
+  }
+  /* string 2, char 47 */
+  77.18631%, 77.4398% {
+    content: "Search for users on GitLa";
+  }
+  /* string 2, char 48 */
+  77.4398%, 77.69328% {
+    content: "Search for users on GitL";
+  }
+  /* string 2, char 49 */
+  77.69328%, 77.94677% {
+    content: "Search for users on Git";
+  }
+  /* string 2, char 50 */
+  77.94677%, 78.20025% {
+    content: "Search for users on Gi";
+  }
+  /* string 2, char 51 */
+  78.20025%, 78.45374% {
+    content: "Search for users on G";
+  }
+  /* string 2, char 52 */
+  78.45374%, 78.70722% {
+    content: "Search for users on ";
+  }
+  /* string 2, char 53 */
+  78.70722%, 78.96071% {
+    content: "Search for users on";
+  }
+  /* string 2, char 54 */
+  78.96071%, 79.2142% {
+    content: "Search for users o";
+  }
+  /* string 2, char 55 */
+  79.2142%, 79.46768% {
+    content: "Search for users ";
+  }
+  /* string 2, char 56 */
+  79.46768%, 79.72117% {
+    content: "Search for users";
+  }
+  /* string 2, char 57 */
+  79.72117%, 79.97465% {
+    content: "Search for user";
+  }
+  /* string 2, char 58 */
+  79.97465%, 80.22814% {
+    content: "Search for use";
+  }
+  /* string 2, char 59 */
+  80.22814%, 80.48162% {
+    content: "Search for us";
+  }
+  /* string 2, char 60 */
+  80.48162%, 80.73511% {
+    content: "Search for u";
+  }
+  /* string 2, char 61 */
+  80.73511%, 80.98859% {
+    content: "Search for ";
+  }
+  /* string 2, char 62 */
+  80.98859%, 81.24208% {
+    content: "Search for";
+  }
+  /* string 2, char 63 */
+  81.24208%, 81.49556% {
+    content: "Search fo";
+  }
+  /* string 2, char 64 */
+  81.49556%, 81.74905% {
+    content: "Search f";
+  }
+  /* string 2, char 65 */
+  81.74905%, 82.00253% {
+    content: "Search ";
+  }
+  /* string 2, char 66 */
+  82.00253%, 82.25602% {
+    content: "Search";
+  }
+  /* string 2, char 67 */
+  82.25602%, 82.50951% {
+    content: "Searc";
+  }
+  /* string 2, char 68 */
+  82.50951%, 82.76299% {
+    content: "Sear";
+  }
+  /* string 2, char 69 */
+  82.76299%, 83.01648% {
+    content: "Sea";
+  }
+  /* string 2, char 70 */
+  83.01648%, 83.26996% {
+    content: "Se";
+  }
+  /* string 2, char 71 */
+  83.26996%, 83.52345% {
+    content: "S";
+  }
+  /* string 2, char 72 */
+  83.52345%, 100% {
+    content: "​";
+  }
+}
+
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+
+* {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 17px;
+  font-family: 'VT323', monospace, sans-serif;
+  color: #3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::after {
+  content: "​";
+  position: relative;
+  top: -583px;
+  display: inline-block;
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  border-right: 5px solid rgba(51, 255, 51, 0.75);
+  text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+  white-space: nowrap;
+  -webkit-animation: typed 31.56s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 31.56s linear 1s infinite, beam-blink 1s infinite;
+  float: left;
+  margin-left: 40px;
+}
+
+@media (max-width: 575px) {
+  body::after {
+    top: -33px;
+  }
+}
+
+body::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px 0;
+  background: #00f;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  white-space: pre-wrap;
+}
+/*# sourceMappingURL=type_writer.css.map */
