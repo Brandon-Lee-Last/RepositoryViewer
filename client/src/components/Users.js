@@ -30,9 +30,7 @@ export default class Users extends Component {
                     this.setState({data: _data});
                 })
                 .then(() => {
-                    setTimeout(() => {
-                        this.setState({isLoading: false});
-                    }, 1000);
+                    this.setState({isLoading: false});
                 })   
             })
         }

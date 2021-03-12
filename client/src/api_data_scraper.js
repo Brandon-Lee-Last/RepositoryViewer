@@ -100,7 +100,10 @@ export function getGitLabUsers(name){
 }
 export function fetchUserDetails(id){
             
-    fetch(`https://api.github.com/user/${id}/repos?access_token=${Github_Token}`).then(res => res.json()).then((data) => {
+    fetch(`https://api.github.com/user/${id}/repos?access_token=${Github_Token}`, {
+        'Accept': 'application/json; odata=verbose',
+        'Content-Type': 'application/json',
+    }).then(res => res.json()).then((data) => {
         console.log(data.length);
         for (let i = 0; i < data.length; i++) {
             fetch(`https://api.github.com/repos/${data[i].owner.login}/${data[i].name}/commits?access_token=${Github_Token}`).then(res => res.json()).then((_data) => {
@@ -112,6 +115,7 @@ export function fetchUserDetails(id){
                 credentials: 'same-origin', // include, *same-origin, omit
                 headers: {
                 'Content-Type': 'application/json',
+                'Accept': 'application/json',
                 'Access-Controll-Allow-Origin': '*',
                 'Access-Control-Allow-Headers': 'Content-Type',
                 'Access-Control-Allow-Methods':'GET, POST, PATCH, PUT, DELETE, OPTIONS'
