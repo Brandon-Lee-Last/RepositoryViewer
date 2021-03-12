@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const fs = require('fs');
 
 const app = express();
-
+app.use(helmet());
 
 function getUser(){
     try{
@@ -145,7 +145,9 @@ app.get('/api/fetch/users', (req, res) => {
 })
 
 app.get('/api/fetch/repo', (req, res) => {
-    res.send(getRepo());
+    setTimeout(() => {
+        res.send(getRepo());
+    },1000);
 })
 
 
