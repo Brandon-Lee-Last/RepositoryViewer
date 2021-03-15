@@ -1,4 +1,0 @@
-module.exports = {
-    "Github_Token": "5f17758b596c10db0bc91cf28d80a70d7e22d12e ",//GitHubs Access Token
-    "GitLab_Token": "BETtbMWkUvdRQjdDoSPX"//GitLabs Access Token
-}
