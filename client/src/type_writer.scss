@@ -70,7 +70,7 @@ $currentPercentage: 0;
 }
 * { backface-visibility: hidden; }
 html, body { height: 100%; }
-body {
+.type_writer {
   font-size: 17px;
   font-family: 'VT323', monospace, sans-serif;
   color: #3f3; // hacker green
@@ -79,7 +79,7 @@ body {
   &::after {
     content: "​"; // zero-width space to retain element height when empty
     position: relative;
-    top: -583px;
+    top: 20px;
     @media (max-width: 575px) { top: -33px; }
     display: inline-block;
     padding-right: 3px;
@@ -88,8 +88,6 @@ body {
     text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
     white-space: nowrap;
     animation: typed #{$durTotal + "s"} linear 1s infinite, beam-blink 1s infinite;
-    float: left;
-    margin-left: 40px;
   }
   &::before {
     display: block;

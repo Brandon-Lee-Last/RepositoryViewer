@@ -1017,7 +1017,7 @@ html, body {
   height: 100%;
 }
 
-body {
+.type_writer {
   font-size: 17px;
   font-family: 'VT323', monospace, sans-serif;
   color: #3f3;
@@ -1025,10 +1025,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body::after {
+.type_writer::after {
   content: "​";
   position: relative;
-  top: -583px;
+  top: 20px;
   display: inline-block;
   padding-right: 3px;
   padding-right: calc(3px + 0.1vw);
@@ -1037,17 +1037,15 @@ body::after {
   white-space: nowrap;
   -webkit-animation: typed 31.56s linear 1s infinite, beam-blink 1s infinite;
           animation: typed 31.56s linear 1s infinite, beam-blink 1s infinite;
-  float: left;
-  margin-left: 40px;
 }
 
 @media (max-width: 575px) {
-  body::after {
+  .type_writer::after {
     top: -33px;
   }
 }
 
-body::before {
+.type_writer::before {
   display: block;
   position: absolute;
   bottom: 0;

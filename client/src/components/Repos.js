@@ -10,7 +10,6 @@ export default class Repos extends Component {
                         <div className="repo_box">
                             <h1>{data.name}</h1>
                             <p>Private Repo : {data.private}</p>
-                            <p>License : {data.license}</p>
                             <p>Forks : {data.forks}</p>
                             <p>Original URL : {data.url}</p>
                             <p>Discription : {data.description}</p>
@@ -22,6 +21,7 @@ export default class Repos extends Component {
         else{
             return(
                 <div className="repo_loader">
+                    Please Wait...
                     <Loader/>
                 </div>
             )

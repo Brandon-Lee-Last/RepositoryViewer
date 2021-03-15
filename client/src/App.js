@@ -6,7 +6,9 @@ import {fetchUsers, getGitLabUsers} from './api_data_scraper'
 import './App.css'
 import './style.css'
 import './type_writer.css'
+import TypeWriter from './components/TypeWriter'
 
+//Imports for routing.
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,7 +29,7 @@ export default class App extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (prevState.name !== this.state.name) {
+    if (prevState.name !== this.state.name) {//Checxks if the state updated and then recalls the api to feed it more members in the autocomplete list.
       this.setState({isLoading: true});
       setTimeout(() => {
       fetch(`/api/fetch/users`)
@@ -48,10 +50,9 @@ export default class App extends Component {
           let new_members_array = [];
           for (let i = 0; i < 2; i++) {
             new_members_array.push(this.state.users[i].name)
-            console.log(new_members_array[i]);
           }
           this.setState({members:new_members_array});
-          this.forceUpdate();
+          this.forceUpdate();//Forces a render.
 
       })
       .catch(error => {
@@ -65,7 +66,7 @@ export default class App extends Component {
   handleChange(e) {
     setTimeout(() => {
       this.setState({name: e});
-    }, 600)
+    }, 600)//sets the state name afetr 0.6 seconds.
     fetchUsers(e);
     getGitLabUsers(e);
   }
@@ -78,6 +79,7 @@ export default class App extends Component {
             <Route path="/">
             <div>
           <div className="header">
+            <TypeWriter/>
             <Search changeRoutes={this.changeRoutes} users={this.state.users} input={this.state.name} members = {this.state.members} handleChange={this.handleChange} isLoading={this.state.isLoading}/>
           </div>
           <div>

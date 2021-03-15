@@ -1,10 +1,10 @@
 const express = require('express');
 const port = process.env.PORT || 5000;
 const helmet = require('helmet');
-const fs = require('fs');
+const fs = require('fs');//File System Reader Writer ect.
 
 const app = express();
-app.use(helmet());
+app.use(helmet());//Hides headers from attackers and adds security.
 
 function getUser(){
     try{
@@ -27,9 +27,10 @@ function getRepo(){
         return [];//returns the array.
     }
 }
-
+//Adds repo det[ails to its own file.]
 function addDetails(user_id, id, name, description, created, forks, license, private, url){
     let repo = getRepo();
+    console.log(id);
     for (let i = 0; i < repo.length; i++) {
         if(repo[i].id === id){
             console.log('Duplicate found, deleting repo with id of ' + id);
@@ -43,6 +44,8 @@ function addDetails(user_id, id, name, description, created, forks, license, pri
         }
         
     }
+
+    //If there are no projects file is emtpy.
     repo.push({"userID": user_id, "id":id, "name": name, "description": description, "created": created, "forks": forks, "license": license, "private": private, "url": url});
     fs.writeFileSync('repo.json', JSON.stringify(repo));//Rewrites the json array.
 }
@@ -113,6 +116,7 @@ app.post('/api/add/gitlab/:id/:name/:username/:bio/:following/:followers/*', (re
 
 //-----------------------------------------Post User Details-----------------------------------------//
 
+//Posts repo details.
 app.post('/api/add/details/:user_id/:id/:name/:description/:created/:forks/:license/:private/*', (req, res) => {
     const user_id = req.params.user_id;
     const id = req.params.id;
